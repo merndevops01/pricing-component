@@ -27,9 +27,7 @@ export default function MingSpacePricing() {
         <div class="pricing-container">
           {pricingMockData.map((data, index) => {
             data.price = priceVariant ? data.pricingYear : data.pricingMonth;
-            return (
-              <MingSpacePricingCard data={data} priceVariant={priceVariant} />
-            );
+            return <MingSpacePricingCard data={data} />;
           })}
         </div>
       </div>

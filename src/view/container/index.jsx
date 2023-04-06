@@ -18,7 +18,6 @@ export default function MingSpacePricing() {
               value={priceVariant}
               onChange={(event) => {
                 setPriceVariant(priceVariant === 0 ? 1 : 0);
-                console.log('console1', event.target.value);
               }}
             />
             <span className="slider round"></span>

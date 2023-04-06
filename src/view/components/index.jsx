@@ -14,6 +14,7 @@ export default function MingSpacePricingCard(props) {
             return <li>{data}</li>;
           })}
         </ul>
+        <button className="buy-now-button">Buy Now</button>
       </div>
     </>
   );
